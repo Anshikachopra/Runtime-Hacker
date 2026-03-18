@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runtime Hacker About Us</title>
+  <style>
+    :root { --bg:#070b13; --card:#111827; --text:#e2e8f0; --muted:#94a3b8; --accent:#7c3aed; }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:Inter,system-ui,sans-serif;color:#e2e8f0;background:radial-gradient(circle at 20% 0%,#1f2937 0%,#070b13 45%,#020617 100%);}
+    header{position:sticky;top:0;z-index:20;background:rgba(9,14,26,0.95);backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,.07);}
+    .nav{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:.7rem 1rem;gap:.8rem;}
+    .logo{display:flex;align-items:center;gap:.35rem;font-weight:700;font-size:1rem;color:#f8fafc;text-decoration:none;}
+    .box{width:20px;height:20px;border-radius:6px;background:linear-gradient(135deg,#7c3aed,#22c55e);display:inline-flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800;color:#fff;}
+    .nav-links{display:flex;gap:.55rem;flex-wrap:wrap;}
+    .nav-links a{color:#e2e8f0;text-decoration:none;padding:.25rem .5rem;border-radius:8px;transition:.2s;}
+    .nav-links a:hover{background:rgba(255,255,255,.08);} .nav-links a.active{background:rgba(255,255,255,.15);color:#fff;}
+    .main{max-width:1100px;margin:1rem auto;padding:0 1rem;}
+    .hero{background:#111827;border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:1rem;}
+    .hero h1{margin-bottom:.3rem;}
+    .hero p{color:#cbd5e1;line-height:1.55;}
+    .leaders{margin-top:1rem;display:grid;gap:.7rem;grid-template-columns:1fr;}
+    .profile{background:#0b1223;border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:.8rem;transition:.25s ease, box-shadow .25s ease, border-color .25s ease, transform .25s ease;}
+    .profile:hover{box-shadow:0 0 0 1px rgba(59,130,246,0.35),0 12px 30px rgba(0,0,0,.35);transform:translateY(-2px);border-color:rgba(59,130,246,0.7);}
+    .profile h3{margin:0 0 .25rem;font-size:1rem;}
+    .profile p{margin:.2rem 0;color:#cbd5e1;line-height:1.45;}
+    .back{display:inline-block;margin-top:.5rem;color:#cbd5e1;text-decoration:none;font-size:.9rem;border:1px solid rgba(255,255,255,.2);padding:.25rem .45rem;border-radius:8px;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="index.html"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=80&q=80" alt="Runtime Hacker" style="width:24px;height:24px;border-radius:6px;object-fit:cover;margin-right:0.35rem;">Runtime Hacker</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="events.html">Events</a>
+        <a class="active" href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <h1>About Runtime Hacker</h1>
+      <p>Runtime Hacker is a student coding club dedicated to building real software, practicing algorithms, and mentoring each other. We host weekly events, workshops, and project sprints to help members grow from beginner to confident developer.</p>
+    </section>
+    <section class="leaders">
+      <div class="profile"><h3>Faculty Coordinator</h3><p>Dr. Aisha Khan</p><p>Department of Computer Science</p><p>Mentorship, team direction, and curriculum guidance.</p></div>
+      <div class="profile"><h3>President</h3><p>Rahul Kumar</p><p>Final Year, B.Tech</p><p>Coordinates club strategy, events, and partnerships.</p></div>
+      <div class="profile"><h3>Vice President</h3><p>Meera Sharma</p><p>Third Year, B.Tech</p><p>Leads project mentorship and engineering workshops.</p></div>
+      <div class="profile"><h3>Student Coordinator</h3><p>Arjun Rao</p><p>Second Year, B.Tech</p><p>Manages member onboarding, communication, and weekly sessions.</p></div>
+    </section>
+  </main>
+</body>
+</html>

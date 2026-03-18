@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runtime Hacker Contact</title>
+  <style>
+    :root { --bg:#070b13; --surface:#111827; --text:#e2e8f0; --muted:#94a3b8; --accent:#7c3aed; }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at 20% 0%,#1f2937 0%,#070b13 50%,#020617 100%);color:#e2e8f0;}
+    header{position:sticky;top:0;z-index:20;background:rgba(9,14,26,0.95);backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,.07);}
+    .nav{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:.7rem 1rem;gap:.8rem;}
+    .logo{display:flex;align-items:center;gap:.35rem;font-weight:700;font-size:1rem;color:#f8fafc;text-decoration:none;}
+    .box{width:20px;height:20px;border-radius:6px;background:linear-gradient(135deg,#7c3aed,#22c55e);display:inline-flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800;color:#fff;}
+    .nav-links{display:flex;gap:.55rem;flex-wrap:wrap;}
+    .nav-links a{color:#e2e8f0;text-decoration:none;padding:.25rem .5rem;border-radius:8px;transition:.2s;}
+    .nav-links a:hover{background:rgba(255,255,255,.08);} .active{background:rgba(255,255,255,.15);}
+    .main{max-width:1100px;margin:1rem auto;padding:0 1rem;}
+    .hero{background:#111827;border:1px solid rgba(255,255,255,.07);border-radius:14px;padding:1rem;}
+    .hero h1{margin-bottom:.3rem;}
+    .hero p{color:#cbd5e1;line-height:1.55;}
+    .contact-list{margin-top:1rem;display:grid;gap:.8rem;}
+    .contact-card{background:#0b1223;border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:.8rem;transition:.25s ease, box-shadow .25s ease, border-color .25s ease, transform .25s ease;}
+    .contact-card:hover{border-color:rgba(59,130,246,.45);box-shadow:0 10px 22px rgba(59,130,246,.2);transform:translateY(-2px);}
+    .contact-card h3{margin:.1rem 0 .25rem;}
+    .contact-card p{color:#cbd5e1;line-height:1.5;}
+    .contact-card a{color:#7c3aed;cursor:pointer;text-decoration:none;}
+    .back{display:inline-block;margin-top:.6rem;color:#cbd5e1;text-decoration:none;border:1px solid rgba(255,255,255,.2);padding:.25rem .45rem;border-radius:8px;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="index.html"><img src="logo.png" alt="Runtime Hacker" style="width:24px;height:24px;border-radius:6px;object-fit:cover;margin-right:0.35rem;">Runtime Hacker</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About Us</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <h1>Contact Runtime Hacker</h1>
+      <p>Connect with us on our channels for event updates, mentoring, and membership.</p>
+    </section>
+    <section class="contact-list">
+      <article class="contact-card"><h3>Email</h3><p>runtime.hacker@club.example</p></article>
+      <article class="contact-card"><h3>WhatsApp Group</h3><p><a href="https://chat.whatsapp.com/examplegroup" target="_blank" rel="noreferrer noopener">Join our WhatsApp group</a></p></article>
+      <article class="contact-card"><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/school/runtime-hacker" target="_blank" rel="noreferrer noopener">Follow us on LinkedIn</a></p></article>
+      <article class="contact-card"><h3>Office Hours</h3><p>Monday - Friday, 5:00 PM - 7:00 PM in Lab 2 and Discord voice channel.</p></article>
+    </section>
+  </main>
+</body>
+</html>
